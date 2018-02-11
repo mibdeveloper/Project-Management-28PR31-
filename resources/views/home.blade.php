@@ -5,8 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">{{__("Dashboard")}}</div>
-
+                <div class="panel-heading">{{trans("messages.Dashboard")}}</div>
                 <div class="panel-body">
                     @if (session('status'))
                         <div class="alert alert-success">
@@ -14,7 +13,7 @@
                         </div>
                     @endif
 
-                    {{__("You are logged in")}}!
+                    {{trans("messages.You are logged in")}}!
                 </div>
             </div>
         </div>

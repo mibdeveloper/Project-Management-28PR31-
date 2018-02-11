@@ -7,17 +7,17 @@
 
     <div class='col-lg-4 col-lg-offset-4'>
 
-        <h1><i class='fa fa-key'></i> {{__("Add Permission")}}</h1>
+        <h1><i class='fa fa-key'></i> {{trans("messages.Add Permission")}}</h1>
         <br>
 
         {{ Form::open(array('url' => 'permissions')) }}
 
         <div class="form-group">
-            {{ Form::label('name', __('Name')) }}
+            {{ Form::label('name', trans('messages.Name')) }}
             {{ Form::text('name', '', array('class' => 'form-control')) }}
         </div><br>
         @if(!$roles->isEmpty()) <!--//If no roles exist yet-->
-        <h4>{{__("Assign Permission to Roles")}}</h4>
+        <h4>{{trans("messages.Assign Permission to Roles")}}</h4>
 
         @foreach ($roles as $role)
             {{ Form::checkbox('roles[]',  $role->id ) }}
@@ -26,7 +26,7 @@
         @endforeach
         @endif
         <br>
-        {{ Form::submit(__('Add'), array('class' => 'btn btn-primary')) }}
+        {{ Form::submit(trans('messages.Add'), array('class' => 'btn btn-primary')) }}
 
         {{ Form::close() }}
 

@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("428 Precondition Required")}}
+                        {{trans("messages.428 Precondition Required")}}
                     </div>
                 </div>
             </div>

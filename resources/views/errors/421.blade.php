@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("421 Misdirected Request")}}
+                        {{trans("messages.421 Misdirected Request")}}
                     </div>
                 </div>
             </div>

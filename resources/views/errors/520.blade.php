@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("520 Unknown Error")}}
+                        {{trans("messages.520 Unknown Error")}}
                     </div>
                 </div>
             </div>

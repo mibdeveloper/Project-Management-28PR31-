@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("508 Loop Detected")}}
+                        {{trans("messages.508 Loop Detected")}}
                     </div>
                 </div>
             </div>

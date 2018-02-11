@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("414 URI Too Long")}}
+                        {{trans("messages.414 URI Too Long")}}
                     </div>
                 </div>
             </div>

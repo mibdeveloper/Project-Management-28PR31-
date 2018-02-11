@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("504 Gateway Timeout")}}
+                        {{trans("messages.504 Gateway Timeout")}}
                     </div>
                 </div>
             </div>

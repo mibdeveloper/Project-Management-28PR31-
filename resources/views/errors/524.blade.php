@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("524 A Timeout Occurred")}}
+                        {{trans("messages.524 A Timeout Occurred")}}
                     </div>
                 </div>
             </div>

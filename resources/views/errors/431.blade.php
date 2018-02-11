@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("431 Request Header Fields Too Large")}}
+                        {{trans("messages.431 Request Header Fields Too Large")}}
                     </div>
                 </div>
             </div>

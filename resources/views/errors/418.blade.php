@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("418 I’m a teapot")}}
+                        {{trans("messages.418 I’m a teapot")}}
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("403 Forbidden")}}
+                        {{trans("messages.403 Forbidden")}}
                     </div>
                 </div>
             </div>

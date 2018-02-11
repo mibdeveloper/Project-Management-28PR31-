@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("502 Bad Gateway")}}
+                        {{trans("messages.502 Bad Gateway")}}
                     </div>
                 </div>
             </div>

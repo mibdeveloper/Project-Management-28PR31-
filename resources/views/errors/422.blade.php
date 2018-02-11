@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("422 Unprocessable Entity")}}
+                        {{trans("messages.422 Unprocessable Entity")}}
                     </div>
                 </div>
             </div>

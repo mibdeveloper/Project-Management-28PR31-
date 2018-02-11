@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("413 Payload Too Large")}}
+                        {{trans("messages.413 Payload Too Large")}}
                     </div>
                 </div>
             </div>

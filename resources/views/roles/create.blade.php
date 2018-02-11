@@ -8,17 +8,17 @@
 
     <div class='col-lg-4 col-lg-offset-4'>
 
-        <h1><i class='fa fa-key'></i> {{__("Add Role")}}</h1>
+        <h1><i class='fa fa-key'></i> {{trans("messages.Add Role")}}</h1>
         <hr>
 
         {{ Form::open(array('url' => 'roles')) }}
 
         <div class="form-group">
-            {{ Form::label('name', __('Name')) }}
+            {{ Form::label('name', trans('messages.Name')) }}
             {{ Form::text('name', null, array('class' => 'form-control')) }}
         </div>
 
-        <h5><b>{{__("Assign Permissions")}}</b></h5>
+        <h5><b>{{trans("messages.Assign Permissions")}}</b></h5>
 
         <div class='form-group'>
             @foreach ($permissions as $permission)
@@ -28,7 +28,7 @@
             @endforeach
         </div>
 
-        {{ Form::submit(__('Add'), array('class' => 'btn btn-primary')) }}
+        {{ Form::submit(trans('messages.Add'), array('class' => 'btn btn-primary')) }}
 
         {{ Form::close() }}
 

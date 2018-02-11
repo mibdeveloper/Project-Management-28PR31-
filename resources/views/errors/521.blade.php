@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("521 Web Server Is Down")}}
+                        {{trans("messages.521 Web Server Is Down")}}
                     </div>
                 </div>
             </div>

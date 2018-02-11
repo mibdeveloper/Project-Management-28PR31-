@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("405 Method Not Allowed")}}
+                        {{trans("messages.405 Method Not Allowed")}}
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("417 Expectation Failed")}}
+                        {{trans("messages.417 Expectation Failed")}}
                     </div>
                 </div>
             </div>

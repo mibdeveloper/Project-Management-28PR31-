@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("509 Bandwidth Limit Exceeded")}}
+                        {{trans("messages.509 Bandwidth Limit Exceeded")}}
                     </div>
                 </div>
             </div>

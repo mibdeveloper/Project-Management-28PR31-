@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("500 Internal Server Error")}}
+                        {{trans("messages.500 Internal Server Error")}}
                     </div>
                 </div>
             </div>

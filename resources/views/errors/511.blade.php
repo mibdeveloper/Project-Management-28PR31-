@@ -7,7 +7,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        {{__("511 Network Authentication Required")}}
+                        {{trans("messages.511 Network Authentication Required")}}
                     </div>
                 </div>
             </div>
